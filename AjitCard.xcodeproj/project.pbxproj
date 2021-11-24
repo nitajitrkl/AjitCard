@@ -11,6 +11,8 @@
 		88EB36D6272C0839000E198A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB36D5272C0839000E198A /* ContentView.swift */; };
 		88EB36D8272C083B000E198A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EB36D7272C083B000E198A /* Assets.xcassets */; };
 		88EB36DB272C083B000E198A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EB36DA272C083B000E198A /* Preview Assets.xcassets */; };
+		88EB36E3272C0AD5000E198A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88EB36E2272C0AD5000E198A /* Pacifico-Regular.ttf */; };
+		88EB36E6272C141A000E198A /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB36E5272C141A000E198A /* infoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		88EB36D5272C0839000E198A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88EB36D7272C083B000E198A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EB36DA272C083B000E198A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88EB36E2272C0AD5000E198A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		88EB36E4272C0C5C000E198A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		88EB36E5272C141A000E198A /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		88EB36D2272C0839000E198A /* AjitCard */ = {
 			isa = PBXGroup;
 			children = (
+				88EB36E4272C0C5C000E198A /* Info.plist */,
+				88EB36E1272C0ABE000E198A /* fonts */,
 				88EB36D3272C0839000E198A /* AjitCardApp.swift */,
 				88EB36D5272C0839000E198A /* ContentView.swift */,
+				88EB36E5272C141A000E198A /* infoView.swift */,
 				88EB36D7272C083B000E198A /* Assets.xcassets */,
 				88EB36D9272C083B000E198A /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				88EB36DA272C083B000E198A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88EB36E1272C0ABE000E198A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				88EB36E2272C0AD5000E198A /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB36E3272C0AD5000E198A /* Pacifico-Regular.ttf in Resources */,
 				88EB36DB272C083B000E198A /* Preview Assets.xcassets in Resources */,
 				88EB36D8272C083B000E198A /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB36E6272C141A000E198A /* infoView.swift in Sources */,
 				88EB36D6272C0839000E198A /* ContentView.swift in Sources */,
 				88EB36D4272C0839000E198A /* AjitCardApp.swift in Sources */,
 			);
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = PDYTTKPYJZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AjitCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = PDYTTKPYJZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AjitCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
